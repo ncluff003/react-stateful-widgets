@@ -48,7 +48,7 @@ export default function Programmers() {
 
   return (
     <div className="widget-programmers container">
-      <h2>Programmers</h2>
+      <h2> Programmers </h2>
       <div className="programmers">
         {
           /* Nasty bug! We should map over a slice of state, instead of 'listOfAwesome'.
